@@ -1,0 +1,11 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  # Action
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hej från GitHub Actions!"
