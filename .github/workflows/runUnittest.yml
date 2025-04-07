@@ -15,7 +15,8 @@ jobs:
       - name: Set up jdk
         uses: actions/setup-java@v4
         with:
-          java-version: '19'
+        # java-version: '19'
+          java-version: '21'
           distribution: 'temurin'
 
       - name: Install dependency and run tests
